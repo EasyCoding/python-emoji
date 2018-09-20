@@ -14,6 +14,8 @@ Source0: %pypi_source
 BuildArch: noarch
 
 BuildRequires: python3-devel
+BuildRequires: python3dist(nose)
+BuildRequires: python3dist(coverage)
 
 %description
 %{appdesc}.
