@@ -44,3 +44,5 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Thu Sep 20 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.1-1
+- Initial SPEC release.
