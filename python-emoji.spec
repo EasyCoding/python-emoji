@@ -10,7 +10,7 @@ Summary: %{appsum}
 
 License: BSD
 URL: https://pypi.python.org/pypi/%{appname}
-Source0: %pypi_source
+Source0: %{pypi_source %{appname}}
 BuildArch: noarch
 
 BuildRequires: python3-devel
