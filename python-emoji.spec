@@ -5,7 +5,7 @@
 
 Name: python-%{appname}
 Version: 0.5.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: %{appsum}
 
 License: BSD
@@ -46,5 +46,8 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.5.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Thu Sep 20 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.1-1
 - Initial SPEC release.
