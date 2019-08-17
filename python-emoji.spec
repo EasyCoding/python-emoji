@@ -4,8 +4,8 @@
 %global appdesc Full featured simple emoji library for Python
 
 Name: python-%{appname}
-Version: 0.5.1
-Release: 3%{?dist}
+Version: 0.5.3
+Release: 1%{?dist}
 Summary: %{appsum}
 
 License: BSD
@@ -46,6 +46,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Sat Aug 17 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.3-1
+- Updated to version 0.5.3.
+
 * Fri Jul 26 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.5.1-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_31_Mass_Rebuild
 
