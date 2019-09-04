@@ -5,7 +5,7 @@
 
 Name: python-%{appname}
 Version: 0.5.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: %{appsum}
 
 License: BSD
@@ -46,6 +46,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Mon Aug 19 2019 Miro Hrončok <mhroncok@redhat.com> - 0.5.3-2
+- Rebuilt for Python 3.8
+
 * Sat Aug 17 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.3-1
 - Updated to version 0.5.3.
 
