@@ -5,7 +5,7 @@
 
 Name: python-%{appname}
 Version: 0.5.4
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: %{appsum}
 
 License: BSD
@@ -46,6 +46,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Thu Jan 30 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.5.4-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
 * Fri Sep 20 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.4-1
 - Updated to version 0.5.4.
 
