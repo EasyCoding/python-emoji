@@ -5,7 +5,7 @@
 
 Name: python-%{appname}
 Version: 0.5.4
-Release: 4%{?dist}
+Release: 5%{?dist}
 Summary: %{appsum}
 
 License: BSD
@@ -47,6 +47,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Wed Jul 29 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.5.4-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Wed Jun 24 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 0.5.4-4
 - Added python3-setuptools to build requirements.
 
