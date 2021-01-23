@@ -4,11 +4,11 @@
 %global appdesc Full featured simple emoji library for Python
 
 Name: python-%{appname}
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
-Summary: %{appsum}
 
 License: BSD
+Summary: %{appsum}
 URL: https://pypi.python.org/pypi/%{appname}
 Source0: %{pypi_source %{appname}}
 BuildArch: noarch
@@ -47,6 +47,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Sat Jan 23 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 1.0.1-1
+- Updated to version 1.0.1.
+
 * Sat Jan 23 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 1.0.0-1
 - Updated to version 1.0.0.
 
