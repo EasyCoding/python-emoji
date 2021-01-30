@@ -5,7 +5,7 @@
 
 Name: python-%{appname}
 Version: 1.1.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: BSD
 Summary: %{appsum}
@@ -47,6 +47,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{appname}-*.egg-info
 
 %changelog
+* Wed Jan 27 2021 Fedora Release Engineering <releng@fedoraproject.org> - 1.1.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
+
 * Sat Jan 23 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 1.1.0-1
 - Updated to version 1.1.0.
 
